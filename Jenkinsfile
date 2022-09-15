@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                git 'https://github.com/n1032658/java-rest-api-calculator.git'
+                git 'https://github.com/n1032658/java-maven-junit-helloworld.git'
                 sh 'mvn clean compile'
                 
             }
