@@ -13,13 +13,13 @@ pipeline {
             steps {
                 sh 'mvn test'
                 
-            }
+            }}
             
             stage('verfiy') {
             steps {
                 sh 'mvn verify'
                 
-            }}
+            }
 
             post {
                 always {
